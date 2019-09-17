@@ -183,4 +183,18 @@ Visit [Releases](https://github.com/yamnikov-oleg/nasmfmt/releases) to download 
 
 Building requires latest version of golang from [golang.org](https://golang.org/).
 
-If you installed one, run `go get -u github.com/yamnikov-oleg/nasmfmt`. Built binary will be located in your $GOPATH/bin.
+### With Modules (Go 1.11 or higher)
+
+```
+git clone https://github.com/yamnikov-oleg/nasmfmt ;# clone outside of GOPATH
+cd nasmfmt
+go install
+```
+
+Built binary will be located in your ~/go/bin.
+
+### Without Modules (Before Go 1.11)
+
+Building requires latest version of golang from [golang.org](https://golang.org/).
+
+Built binary will be located in your $GOPATH/bin.
