@@ -195,6 +195,6 @@ Built binary will be located in your ~/go/bin.
 
 ### Without Modules (Before Go 1.11)
 
-Building requires latest version of golang from [golang.org](https://golang.org/).
+`go get -u github.com/yamnikov-oleg/nasmfmt`
 
 Built binary will be located in your $GOPATH/bin.
